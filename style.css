@@ -1,5 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Matemasie&display=swap');
+
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --preto: #000000ff;
+    --azul-forte: #14213dff;
+    --laranja: rgb(255, 162, 2);
+    --cinza: rgb(113, 113, 113);
+    --branco: #ffffffff;
+    --fonte-titulo: "Grey Qo", sans-serif;
+    --fonte-texto: "Matemasie", cursive;
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--fonte-texto);
+    font-size: 30px;
+}
+
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.cabecalho-img{
+    width: 15%;
+    border-radius: 100%;
+}
+
+.cabecalho-nav__link{
+    font-family: var(--fonte-titulo);
+    text-decoration: none;
+    font-size: 30px;
+    color: var(--preto);
+    margin-right: 36px;
+}
+
+.cabecalho-nav__link:hover{
+    color: var(--cinza);
+    font-size: 46px;
+    transition: 0,5s;
+}
+
+.principal-capa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/pexels-kubiceknov-924824.jpg);
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    padding-left: 24px 12px;
+}
+
+.principal-capa__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.principal-capa__titulo{
+    font-family: var(--texto--titulo);
+    font-size: 32px;
+    color: var(--branco);
+    margin-bottom: 12px;
+}
+
+.principal-capa__texto{
+    font-size: 24px;
+    margin-top: 24px;
+    color: var(--branco);
+}
+
+.principal-capa__imagem{
+    border-radius: 0 5% 0 5%;
 }
 
