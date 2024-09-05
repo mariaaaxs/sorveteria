@@ -14,7 +14,19 @@ background-color: var(--azulclaro);
 color: var(--lilás);
 }
 
-
 .titulo-principal {
     font-family: var(--fonte-principal);
+}
+
+.cabecalho-img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.cabecalho-nav_link{
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    color: var(--lilás);
+    margin-right: 24px;
 }
