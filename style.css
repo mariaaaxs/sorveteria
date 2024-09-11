@@ -30,3 +30,36 @@ color: var(--lilás);
     color: var(--lilás);
     margin-right: 24px;
 }
+
+.principal_capa{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    margin-left: 24px;
+    padding: 24px 12px;
+}
+
+.principal_capa__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.principal_capa__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 34px;
+    color: var(--azulescuro);
+    margin-bottom: 12px;
+}
+
+.principal_capa__texto{
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.principal_capa__imagem{
+    border-radius: 0 5% 0 5%;
+}
