@@ -10,7 +10,7 @@
 }
 
 body{
-background-color: var(--azulclaro);
+background-color: var(--rosafraco);
 color: var(--lilás);
 }
 
@@ -61,5 +61,26 @@ color: var(--lilás);
 }
 
 .principal_capa__imagem{
-    border-radius: 0 5% 0 5%;
+    border-radius: 0 2% 0 2%;
+}
+
+.principal_capa__combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.principal_capa__botao{
+    background-color: var(--lilás);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+    color: var(--rosafraco);
+    text-decoration: none;
+}
+
+.principal_capa__imagem{
+    border-radius: 4px;
+    padding: 3em;
+    margin-left: 4;
 }
